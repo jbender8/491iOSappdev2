@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Progress_View___SB" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8XU-za-cOC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9p7-uh-65m">
+                                <rect key="frame" x="37" y="44" width="34" height="31"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eRx-kp-ZHW"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="iRv-ym-2Uz">
+                                <rect key="frame" x="43" y="83" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="otz-Qc-fsi">
+                                <rect key="frame" x="126" y="91" width="268" height="4"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100% " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2x-Ue-11S">
+                                <rect key="frame" x="183" y="44" width="48" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uCF-WO-SLq"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="otz-Qc-fsi" firstAttribute="leading" secondItem="8XU-za-cOC" secondAttribute="leadingMargin" constant="106" id="8ol-CM-A0t"/>
+                            <constraint firstItem="otz-Qc-fsi" firstAttribute="top" secondItem="G2x-Ue-11S" secondAttribute="bottom" constant="26" id="Hx7-G7-HS1"/>
+                            <constraint firstItem="9p7-uh-65m" firstAttribute="leading" secondItem="8XU-za-cOC" secondAttribute="leadingMargin" constant="17" id="L7F-Yb-iGW"/>
+                            <constraint firstItem="9p7-uh-65m" firstAttribute="top" secondItem="uCF-WO-SLq" secondAttribute="top" id="M7f-YG-r2w"/>
+                            <constraint firstItem="iRv-ym-2Uz" firstAttribute="centerY" secondItem="otz-Qc-fsi" secondAttribute="centerY" id="R8j-ZJ-sEc"/>
+                            <constraint firstAttribute="centerX" secondItem="G2x-Ue-11S" secondAttribute="centerX" id="dJg-nt-HyV"/>
+                            <constraint firstItem="otz-Qc-fsi" firstAttribute="trailing" secondItem="8XU-za-cOC" secondAttribute="trailingMargin" id="fKQ-ti-Sa1"/>
+                            <constraint firstItem="G2x-Ue-11S" firstAttribute="top" secondItem="9p7-uh-65m" secondAttribute="top" id="vNT-nD-Igh"/>
+                            <constraint firstItem="iRv-ym-2Uz" firstAttribute="top" secondItem="9p7-uh-65m" secondAttribute="bottom" constant="8" id="ydY-OK-tc3"/>
+                            <constraint firstItem="iRv-ym-2Uz" firstAttribute="leading" secondItem="8XU-za-cOC" secondAttribute="leadingMargin" constant="23" id="z9v-5T-Eg4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="indicator" destination="iRv-ym-2Uz" id="Y4f-fM-u9Q"/>
+                        <outlet property="label" destination="G2x-Ue-11S" id="hb8-GS-mld"/>
+                        <outlet property="progress" destination="otz-Qc-fsi" id="zwI-Fw-lN5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="40.579710144927539" y="93.75"/>
+        </scene>
+    </scenes>
+</document>
