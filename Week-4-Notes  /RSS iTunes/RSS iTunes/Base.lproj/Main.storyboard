@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RSS_iTunes" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7D4-tx-WD5">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iTunes RSS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lqj-o2-HKg">
+                                <rect key="frame" x="132.66666666666666" y="52" width="124.99999999999997" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9e1-2q-XS4">
+                                <rect key="frame" x="16" y="142" width="358" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mph-JG-dKu">
+                                <rect key="frame" x="45" y="171" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="526-k4-wti"/>
+                                    <constraint firstAttribute="height" constant="300" id="KII-8Y-Wue"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZJJ-l7-L9D">
+                                <rect key="frame" x="16" y="89" width="358" height="45"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="38"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Lqj-o2-HKg" firstAttribute="centerX" secondItem="7D4-tx-WD5" secondAttribute="centerX" id="90y-Ee-S1d"/>
+                            <constraint firstItem="9e1-2q-XS4" firstAttribute="top" secondItem="ZJJ-l7-L9D" secondAttribute="bottom" constant="8" id="D4g-4X-IsE"/>
+                            <constraint firstItem="Lqj-o2-HKg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="N4q-SW-c0l"/>
+                            <constraint firstItem="ZJJ-l7-L9D" firstAttribute="centerX" secondItem="7D4-tx-WD5" secondAttribute="centerX" id="OPe-yU-q9p"/>
+                            <constraint firstItem="9e1-2q-XS4" firstAttribute="trailing" secondItem="7D4-tx-WD5" secondAttribute="trailingMargin" id="SXA-Fe-fg5"/>
+                            <constraint firstItem="Mph-JG-dKu" firstAttribute="top" secondItem="9e1-2q-XS4" secondAttribute="bottom" constant="8" id="aS8-rb-t4B"/>
+                            <constraint firstItem="Mph-JG-dKu" firstAttribute="centerX" secondItem="7D4-tx-WD5" secondAttribute="centerX" id="dgc-is-j6x"/>
+                            <constraint firstItem="ZJJ-l7-L9D" firstAttribute="top" secondItem="Lqj-o2-HKg" secondAttribute="bottom" constant="8" id="fpH-rU-CoE"/>
+                            <constraint firstItem="9e1-2q-XS4" firstAttribute="centerX" secondItem="7D4-tx-WD5" secondAttribute="centerX" id="m88-H2-rfQ"/>
+                            <constraint firstItem="ZJJ-l7-L9D" firstAttribute="trailing" secondItem="7D4-tx-WD5" secondAttribute="trailingMargin" id="rqr-Pw-JmQ"/>
+                            <constraint firstItem="ZJJ-l7-L9D" firstAttribute="leading" secondItem="7D4-tx-WD5" secondAttribute="leadingMargin" id="tdO-jt-FS3"/>
+                            <constraint firstItem="9e1-2q-XS4" firstAttribute="leading" secondItem="7D4-tx-WD5" secondAttribute="leadingMargin" id="yO8-qE-a66"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="artistLabel" destination="9e1-2q-XS4" id="1NR-PR-haU"/>
+                        <outlet property="imageView" destination="Mph-JG-dKu" id="yPs-EQ-nSu"/>
+                        <outlet property="titleLabel" destination="ZJJ-l7-L9D" id="1K3-I8-sE7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="39.130434782608695"/>
+        </scene>
+    </scenes>
+</document>
