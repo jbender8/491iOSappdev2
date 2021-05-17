@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12F19D12A7705A1B2BF8A764 /* Pods_jbender_Assignment2_jbender_Assignment2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D011151B0401551B46CC96B /* Pods_jbender_Assignment2_jbender_Assignment2UITests.framework */; };
+		CB7BFDE331ADB4F7DD1F9583 /* Pods_jbender_Assignment2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3BB8A76C81B3EFD58C5235 /* Pods_jbender_Assignment2Tests.framework */; };
+		DF82E23E3B5FF805C5D83E05 /* Pods_jbender_Assignment2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86299037EFE915155BE9A9DF /* Pods_jbender_Assignment2.framework */; };
 		FEE964692627A76F007FB44D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE964682627A76F007FB44D /* AppDelegate.swift */; };
 		FEE9646B2627A76F007FB44D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE9646A2627A76F007FB44D /* SceneDelegate.swift */; };
 		FEE9646D2627A76F007FB44D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE9646C2627A76F007FB44D /* ViewController.swift */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D011151B0401551B46CC96B /* Pods_jbender_Assignment2_jbender_Assignment2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jbender_Assignment2_jbender_Assignment2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A96F339653DAC320847EF32 /* Pods-jbender_Assignment2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jbender_Assignment2.release.xcconfig"; path = "Target Support Files/Pods-jbender_Assignment2/Pods-jbender_Assignment2.release.xcconfig"; sourceTree = "<group>"; };
+		51CE3ED8FBA4BB10892F3955 /* Pods-jbender_Assignment2-jbender_Assignment2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jbender_Assignment2-jbender_Assignment2UITests.debug.xcconfig"; path = "Target Support Files/Pods-jbender_Assignment2-jbender_Assignment2UITests/Pods-jbender_Assignment2-jbender_Assignment2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A887FF4D83CE2602F87AA48 /* Pods-jbender_Assignment2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jbender_Assignment2Tests.debug.xcconfig"; path = "Target Support Files/Pods-jbender_Assignment2Tests/Pods-jbender_Assignment2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		72AF236624D92A07F7B72BEC /* Pods-jbender_Assignment2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jbender_Assignment2Tests.release.xcconfig"; path = "Target Support Files/Pods-jbender_Assignment2Tests/Pods-jbender_Assignment2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7B3BB8A76C81B3EFD58C5235 /* Pods_jbender_Assignment2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jbender_Assignment2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86299037EFE915155BE9A9DF /* Pods_jbender_Assignment2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jbender_Assignment2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F49D91C33DEEFFE347C3676 /* Pods-jbender_Assignment2-jbender_Assignment2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jbender_Assignment2-jbender_Assignment2UITests.release.xcconfig"; path = "Target Support Files/Pods-jbender_Assignment2-jbender_Assignment2UITests/Pods-jbender_Assignment2-jbender_Assignment2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		E05A5169DC76AF9F98C2C9A9 /* Pods-jbender_Assignment2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jbender_Assignment2.debug.xcconfig"; path = "Target Support Files/Pods-jbender_Assignment2/Pods-jbender_Assignment2.debug.xcconfig"; sourceTree = "<group>"; };
 		FEE964652627A76F007FB44D /* jbender_Assignment2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jbender_Assignment2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE964682627A76F007FB44D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEE9646A2627A76F007FB44D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF82E23E3B5FF805C5D83E05 /* Pods_jbender_Assignment2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7BFDE331ADB4F7DD1F9583 /* Pods_jbender_Assignment2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F19D12A7705A1B2BF8A764 /* Pods_jbender_Assignment2_jbender_Assignment2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3499D3E5FA6EC411CB6A27D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86299037EFE915155BE9A9DF /* Pods_jbender_Assignment2.framework */,
+				0D011151B0401551B46CC96B /* Pods_jbender_Assignment2_jbender_Assignment2UITests.framework */,
+				7B3BB8A76C81B3EFD58C5235 /* Pods_jbender_Assignment2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C414EEB77B4487BE3AD83B57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E05A5169DC76AF9F98C2C9A9 /* Pods-jbender_Assignment2.debug.xcconfig */,
+				3A96F339653DAC320847EF32 /* Pods-jbender_Assignment2.release.xcconfig */,
+				51CE3ED8FBA4BB10892F3955 /* Pods-jbender_Assignment2-jbender_Assignment2UITests.debug.xcconfig */,
+				8F49D91C33DEEFFE347C3676 /* Pods-jbender_Assignment2-jbender_Assignment2UITests.release.xcconfig */,
+				5A887FF4D83CE2602F87AA48 /* Pods-jbender_Assignment2Tests.debug.xcconfig */,
+				72AF236624D92A07F7B72BEC /* Pods-jbender_Assignment2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FEE9645C2627A76F007FB44D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				FEE9647E2627A770007FB44D /* jbender_Assignment2Tests */,
 				FEE964892627A770007FB44D /* jbender_Assignment2UITests */,
 				FEE964662627A76F007FB44D /* Products */,
+				C414EEB77B4487BE3AD83B57 /* Pods */,
+				C3499D3E5FA6EC411CB6A27D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEE9648F2627A770007FB44D /* Build configuration list for PBXNativeTarget "jbender_Assignment2" */;
 			buildPhases = (
+				273474BAAE116E4EF73570AA /* [CP] Check Pods Manifest.lock */,
 				FEE964612627A76F007FB44D /* Sources */,
 				FEE964622627A76F007FB44D /* Frameworks */,
 				FEE964632627A76F007FB44D /* Resources */,
+				C485D44571E31006F5B3AFB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEE964922627A770007FB44D /* Build configuration list for PBXNativeTarget "jbender_Assignment2Tests" */;
 			buildPhases = (
+				6EB636A01B1C5E38F0F90176 /* [CP] Check Pods Manifest.lock */,
 				FEE964772627A770007FB44D /* Sources */,
 				FEE964782627A770007FB44D /* Frameworks */,
 				FEE964792627A770007FB44D /* Resources */,
@@ -170,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEE964952627A770007FB44D /* Build configuration list for PBXNativeTarget "jbender_Assignment2UITests" */;
 			buildPhases = (
+				B482E227CB0A5392FF60A14D /* [CP] Check Pods Manifest.lock */,
 				FEE964822627A770007FB44D /* Sources */,
 				FEE964832627A770007FB44D /* Frameworks */,
 				FEE964842627A770007FB44D /* Resources */,
+				6C32D83D59458D337F2E60AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +297,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		273474BAAE116E4EF73570AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jbender_Assignment2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C32D83D59458D337F2E60AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jbender_Assignment2-jbender_Assignment2UITests/Pods-jbender_Assignment2-jbender_Assignment2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jbender_Assignment2-jbender_Assignment2UITests/Pods-jbender_Assignment2-jbender_Assignment2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jbender_Assignment2-jbender_Assignment2UITests/Pods-jbender_Assignment2-jbender_Assignment2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EB636A01B1C5E38F0F90176 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jbender_Assignment2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B482E227CB0A5392FF60A14D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jbender_Assignment2-jbender_Assignment2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C485D44571E31006F5B3AFB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jbender_Assignment2/Pods-jbender_Assignment2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jbender_Assignment2/Pods-jbender_Assignment2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jbender_Assignment2/Pods-jbender_Assignment2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FEE964612627A76F007FB44D /* Sources */ = {
@@ -433,7 +581,9 @@
 		};
 		FEE964902627A770007FB44D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05A5169DC76AF9F98C2C9A9 /* Pods-jbender_Assignment2.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,7 +602,9 @@
 		};
 		FEE964912627A770007FB44D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A96F339653DAC320847EF32 /* Pods-jbender_Assignment2.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +623,7 @@
 		};
 		FEE964932627A770007FB44D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A887FF4D83CE2602F87AA48 /* Pods-jbender_Assignment2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +646,7 @@
 		};
 		FEE964942627A770007FB44D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72AF236624D92A07F7B72BEC /* Pods-jbender_Assignment2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +669,7 @@
 		};
 		FEE964962627A770007FB44D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51CE3ED8FBA4BB10892F3955 /* Pods-jbender_Assignment2-jbender_Assignment2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +690,7 @@
 		};
 		FEE964972627A770007FB44D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F49D91C33DEEFFE347C3676 /* Pods-jbender_Assignment2-jbender_Assignment2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
